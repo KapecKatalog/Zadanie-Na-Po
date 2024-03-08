@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    
+}
+div#kontener{
+    font: Helvetica;
+    background-color: linen;
+    color: #222;
+    width: 90%;
+    margin: auto;
+}
+div#baner > div{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+}
+
+#baner{
+    display: flex;
+}
+#main{
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+table{
+    margin: 40px;
+}
+td{
+    padding: 30px;
+    text-align: center;
+    font-weight: 1000;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: solid 1px white;
+}
+
+a{
+    color: #aaa;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
